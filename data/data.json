@@ -28,7 +28,7 @@
       "title": "Image uploader",
       "technologies": ["HTML", "CSS", "Javascript", "Typescript", "React.js", "Node.js"],
       "description": "I use the cloudinary SDK to upload your images to Cloudinary, and return the image URL",
-      "demo": null,
+      "demo": "",
       "code": "https://github.com/ValentinOsvaldo/image-uploader",
       "image": "https://camo.githubusercontent.com/9ee437edf180b291619433b80e264c32ee4e0e0548003f4a7b752806ad8571d7/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646d776e6238626e732f696d6167652f75706c6f61642f76313637373437323130332f6f61623665317a79736531716337693434627a782e706e67"
     },
