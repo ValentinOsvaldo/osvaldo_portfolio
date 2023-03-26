@@ -11,7 +11,7 @@ export const AppLayout: React.FC<Props> = ({ children }) => {
     <>
       <Navbar />
       <main className="m-auto w-full max-w-screen-xl">{children}</main>
-      <footer className="flex flex-col gap-4 py-6 sm:py-0 sm:gap-0">
+      <footer className="flex flex-col gap-2 py-6 sm:py-0 sm:gap-0">
         <nav className="flex items-center justify-center flex-row gap-4 sm:flex-col sm:fixed sm:bottom-2 sm:right-16 sm:after:block sm:after:h-36 sm:after:w-0.5 sm:after:bg-gray-500">
           <a
             href="https://github.com/ValentinOsvaldo"

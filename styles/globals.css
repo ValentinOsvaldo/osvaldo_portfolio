@@ -13,6 +13,10 @@
 }
 
 @layer components {
+  .container {
+    @apply min-h-[calc(100vh-110px)] sm:min-h-[calc(100vh-80px)] py-2 px-4 flex flex-col justify-center m-auto;
+  }
+
   .job-card {
     @apply my-4 pl-8 relative after:content-[''] before:content-[''] before:w-4 before:h-4 before:bg-teal-300 before:block before:rounded-full before:absolute before:left-2 before:top-2 before:z-20 after:absolute after:w-px after:h-full after:block after:bg-gray-500 after:left-[0.99rem] after:top-6 after:z-10;
   }

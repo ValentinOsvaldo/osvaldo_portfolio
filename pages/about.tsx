@@ -9,7 +9,7 @@ const about = () => {
         <title>About me</title>
       </Head>
 
-      <section className="min-h-[calc(100vh-110px)] sm:min-h-[calc(100vh-80px)] py-2 px-4 flex flex-col justify-center">
+      <section className="container">
         <article className="mb-4 max-w-screen-sm">
           <h2 className="text-5xl font-semibold text-teal-400 mb-2">
             About me
@@ -32,12 +32,12 @@ const about = () => {
             <li>CSS</li>
             <li>Javascript</li>
             <li>Typescript</li>
-            <li>ReactJs</li>
+            <li>React.js</li>
             <li>React Native</li>
-            <li>NextJs</li>
+            <li>Next.js</li>
             <li>Redux</li>
             <li>Git (Github, Git Flow)</li>
-            <li>NodeJs with Express</li>
+            <li>Node.js with Express</li>
           </ul>
         </article>
 
