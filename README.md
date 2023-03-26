@@ -4,8 +4,13 @@ Hello, my name is Osvaldo Valentin and I'm a Front-End Developer, this is my por
 
 ## Index
 
+- [Overview](#overview)
 - [Setup](#setup)
 - [Build With](#build-with)
+
+## Overview
+
+[Portfolio](https://osvaldo-portfolio.vercel.app/)
 
 ## Setup
 
