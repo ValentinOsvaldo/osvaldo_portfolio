@@ -1,0 +1,18 @@
+{
+  "experience": [
+    {
+      "title": "Front-End Developer",
+      "company": "Aeto",
+      "time": "Full Time",
+      "type": "Remote",
+      "url": "https://www.aeto.com.mx/",
+      "stack": ["Javascript", "Typescript", "React", "React Native", "GIT"],
+      "tasks": [
+        "Engineered and coding of the main product application.",
+        "The front-end team is mentored by me.",
+        "Software delivered in 100% record time and all targets achieved",
+        "Integration of different tools with our products"
+      ]
+    }
+  ]
+}
