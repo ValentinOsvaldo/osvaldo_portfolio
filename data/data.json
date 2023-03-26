@@ -14,5 +14,39 @@
         "Integration of different tools with our products"
       ]
     }
+  ],
+  "projects": [
+    {
+      "title": "Country Quiz",
+      "technologies": ["HTML", "CSS", "Javascript", "Typescript", "React.js"],
+      "description": "Are your ready for this challenge? Enjoy this quiz game about countries.\n Created with the restcountries API",
+      "demo": "https://country-quiz-eosin.vercel.app/",
+      "code": "https://github.com/ValentinOsvaldo/country-quiz",
+      "image": "https://raw.githubusercontent.com/ValentinOsvaldo/country-quiz/main/public/Screenshot%202023-01-20%20005927.png"
+    },
+    {
+      "title": "Image uploader",
+      "technologies": ["HTML", "CSS", "Javascript", "Typescript", "React.js", "Node.js"],
+      "description": "I use the cloudinary SDK to upload your images to Cloudinary, and return the image URL",
+      "demo": null,
+      "code": "https://github.com/ValentinOsvaldo/image-uploader",
+      "image": "https://camo.githubusercontent.com/9ee437edf180b291619433b80e264c32ee4e0e0548003f4a7b752806ad8571d7/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646d776e6238626e732f696d6167652f75706c6f61642f76313637373437323130332f6f61623665317a79736531716337693434627a782e706e67"
+    },
+    {
+      "title": "Weather App",
+      "technologies": ["HTML", "CSS", "Javascript", "React.js"],
+      "description": "User interface for a weather application. I query a weather API to get the current weather, forecast, and more. I also use the geolocation API and the local storage API.",
+      "demo": "https://weather-app-valentinosvaldo.vercel.app/",
+      "code": "https://github.com/ValentinOsvaldo/react-weather-app",
+      "image": "https://camo.githubusercontent.com/735581767b197d8cd0424b714f98b2fe7b8ef04e0df55dc8b5b4590557fabb77/68747470733a2f2f692e696d6775722e636f6d2f6d526530724b6f2e706e67"
+    },
+    {
+      "title": "Todo App",
+      "technologies": ["HTML", "CSS", "Javascript", "React.js"],
+      "description": "Create your todo list, this application uses the localstorage API",
+      "demo": "https://todo-app-lyart-chi.vercel.app/",
+      "code": "https://github.com/ValentinOsvaldo/todo-app",
+      "image": "https://raw.githubusercontent.com/ValentinOsvaldo/todo-app/main/src/ss.png"
+    }
   ]
 }

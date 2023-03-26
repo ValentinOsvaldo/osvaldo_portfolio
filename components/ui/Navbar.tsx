@@ -14,7 +14,7 @@ export const Navbar = () => {
     <header className="bg-slate-800 text-white py-4">
       <div className="flex justify-center px-6 sm:justify-between flex-row flex-wrap items-center max-w-screen-2xl m-auto w-full gap-4">
         <Link href="/">
-          <h1 className="font-bold text-2xl text-teal-400">Osvaldo Valentin</h1>
+          <h1 className="font-bold text-2xl text-teal-400 text-center">Osvaldo Valentin</h1>
         </Link>
         <nav className="flex items-center flex-row flex-wrap justify-center gap-4">
           {links.map((page) => (

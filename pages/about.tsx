@@ -9,7 +9,7 @@ const about = () => {
         <title>About me</title>
       </Head>
 
-      <section className="min-h-[calc(100vh-110px)] sm:min-h-[calc(100vh-80px)] py-2 px-4 flex flex-col justify-center">
+      <section className="container">
         <article className="mb-4 max-w-screen-sm">
           <h2 className="text-5xl font-semibold text-teal-400 mb-2">
             About me
@@ -22,6 +22,30 @@ const about = () => {
             projects independently to improve skills and testing new
             technologies.
           </p>
+
+          <a
+            href="./osvaldo_valentin_garcia.pdf"
+            download
+            className="
+              py-2
+              px-4
+              block
+              border-teal-400
+              border-2
+              text-teal-400
+              bg-transparent
+              mt-2
+              w-full
+              rounded-md
+              text-center
+              font-medium
+              transition-all
+              sm:w-fit
+              hover:bg-teal-500/25
+            "
+          >
+            Download Resume
+          </a>
         </article>
 
         <article className="mb-4 max-w-screen-sm">
@@ -32,12 +56,12 @@ const about = () => {
             <li>CSS</li>
             <li>Javascript</li>
             <li>Typescript</li>
-            <li>ReactJs</li>
+            <li>React.js</li>
             <li>React Native</li>
-            <li>NextJs</li>
+            <li>Next.js</li>
             <li>Redux</li>
             <li>Git (Github, Git Flow)</li>
-            <li>NodeJs with Express</li>
+            <li>Node.js with Express</li>
           </ul>
         </article>
 
@@ -60,7 +84,7 @@ const about = () => {
                 href="http://www.ucnl.edu.mx/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline"
+                className="text-teal-300"
               >
                 Universidad Ciudadana de Nuevo León
               </a>
@@ -71,7 +95,7 @@ const about = () => {
                 href="https://www.conalep.edu.mx/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline"
+                className="text-teal-300"
               >
                 Conalep
               </a>
