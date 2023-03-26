@@ -22,6 +22,30 @@ const about = () => {
             projects independently to improve skills and testing new
             technologies.
           </p>
+
+          <a
+            href="./osvaldo_valentin_garcia.pdf"
+            download
+            className="
+              py-2
+              px-4
+              block
+              border-teal-400
+              border-2
+              text-teal-400
+              bg-transparent
+              mt-2
+              w-full
+              rounded-md
+              text-center
+              font-medium
+              transition-all
+              sm:w-fit
+              hover:bg-teal-500/25
+            "
+          >
+            Download Resume
+          </a>
         </article>
 
         <article className="mb-4 max-w-screen-sm">
@@ -60,7 +84,7 @@ const about = () => {
                 href="http://www.ucnl.edu.mx/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline"
+                className="text-teal-300"
               >
                 Universidad Ciudadana de Nuevo León
               </a>
@@ -71,7 +95,7 @@ const about = () => {
                 href="https://www.conalep.edu.mx/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline"
+                className="text-teal-300"
               >
                 Conalep
               </a>

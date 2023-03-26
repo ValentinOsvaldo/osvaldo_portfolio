@@ -10,6 +10,12 @@
   ::selection {
     @apply bg-teal-300 text-black;
   }
+
+  /* ::-webkit-scrollbar {} */
+
+  /* ::-webkit-scrollbar-thumb {} */
+
+  /* ::-webkit-scrollbar-track {} */
 }
 
 @layer components {
@@ -21,3 +27,4 @@
     @apply my-4 pl-8 relative after:content-[''] before:content-[''] before:w-4 before:h-4 before:bg-teal-300 before:block before:rounded-full before:absolute before:left-2 before:top-2 before:z-20 after:absolute after:w-px after:h-full after:block after:bg-gray-500 after:left-[0.99rem] after:top-6 after:z-10;
   }
 }
+

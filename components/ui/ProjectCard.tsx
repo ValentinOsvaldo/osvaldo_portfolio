@@ -19,7 +19,7 @@ export const ProjectCard: React.FC<Props> = ({
 }) => {
   return (
     <article className="flex flex-col relative md:flex-row md:items-center overflow-hidden rounded-xl md:rounded-none my-4 md:odd:flex-row-reverse group md:justify-between">
-      <div className="z-10 p-4 bg-gradient-to-t from-teal-700 to-black/50 md:from-transparent md:to-transparent flex flex-col md:group-odd:items-end md:group-odd:text-right">
+      <div className="z-10 p-4 bg-black/80 md:bg-transparent flex flex-col md:group-odd:items-end md:group-odd:text-right flex-shrink flex-grow">
         <h3 className="text-3xl font-bold text-teal-500">{title}</h3>
         <span className="text-gray-200 font-medium block mb-2">
           {technologies.join(', ')}
@@ -31,7 +31,7 @@ export const ProjectCard: React.FC<Props> = ({
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-teal-500 px-4 py-2 rounded-lg font-medium transition-all duration-500 hover:brightness-75"
+              className="flex items-center bg-teal-700 px-4 py-2 rounded-lg font-medium transition-all duration-500 hover:brightness-75"
             >
               Demo
             </a>
@@ -40,13 +40,13 @@ export const ProjectCard: React.FC<Props> = ({
             href={code}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-transparent px-4 py-2 rounded-lg border-teal-400 border-2 text-teal-400 transition-all duration-500 hover:bg-teal-200/25 font-medium"
+            className="flex items-center bg-transparent px-4 py-2 rounded-lg border-teal-500 border-2 text-teal-500 transition-all duration-500 hover:bg-teal-200/25 font-medium"
           >
             Code
           </a>
         </div>
       </div>
-      <div className="absolute z-0 w-full h-full md:relative md:w-[400px]">
+      <div className="absolute z-0 w-full h-full md:relative md:max-w-[400px] md:flex-grow flex-shrink-0">
         <Image
           src={
             image
