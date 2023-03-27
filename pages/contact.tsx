@@ -5,6 +5,11 @@ const contact = () => {
   return (
     <>
       <Head>
+        <meta property="og:title" content="Osvaldo Valentin - Contact" />
+        <meta
+          property="og:url"
+          content="https://osvaldo-portfolio.vercel.app/contact"
+        />
         <title>Contact</title>
       </Head>
 
