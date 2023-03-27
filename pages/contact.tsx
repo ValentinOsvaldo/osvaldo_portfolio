@@ -31,12 +31,6 @@ const contact = () => {
               valentingarcia.osvaldo@gmail.com
             </span>
           </a>
-          <a href="tel:+528123236394" className="block text-lg text-gray-300">
-            <span className="font-semibold">Tel: </span>
-            <span className="underline underline-offset-2 text-teal-400">
-              +52 81 2323 6394
-            </span>
-          </a>
         </article>
 
         <Form />
