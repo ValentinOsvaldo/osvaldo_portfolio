@@ -10,7 +10,7 @@ Hello, my name is Osvaldo Valentin and I'm a Front-End Developer, this is my por
 
 ## Overview
 
-[Portfolio](https://osvaldo-portfolio.vercel.app/)
+[Visit the portfolio](https://osvaldo-portfolio.vercel.app/)
 
 ## Setup
 
