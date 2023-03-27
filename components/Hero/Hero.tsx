@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Image from 'next/image';
 
 const icons = [
@@ -16,14 +15,6 @@ const icons = [
 export const Hero = () => {
   return (
     <section className="min-h-[calc(100vh-110px)] sm:h-[calc(100vh_-_75px)] flex justify-center p-4 flex-col gap-2 ">
-      <Head>
-        <meta property="og:title" content="Osvaldo Valentin - FrontEnd Dev" />
-        <meta
-          property="og:url"
-          content="https://osvaldo-portfolio.vercel.app/"
-        />
-        <title>Osvaldo Valentin</title>
-      </Head>
       <h2 className="font-bold text-5xl text-teal-400 relative">
         Hi, my name is Osvaldo Valentin
         <span className="absolute ml-2 inline-block border-l-8 border-teal-400 w-1 h-12 animate-cursor"></span>

@@ -4,7 +4,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <meta
+        <meta property="og:title" content="Osvaldo Valentin - FrontEnd Dev" />
+        <meta
+          property="og:url"
+          content="https://osvaldo-portfolio.vercel.app/"
+        />
+        <meta
           name="description"
           content="FrontEnd Developer studying computer science degree and 1+ year
             experience in software development. Certifications in responsive
