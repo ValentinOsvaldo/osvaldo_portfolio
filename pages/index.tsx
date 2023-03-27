@@ -8,7 +8,11 @@ export default function Home() {
         <meta property="og:title" content="Osvaldo Valentin - FrontEnd Dev" />
         <meta
           property="og:url"
-          content="https://osvaldo-portfolio.vercel.app/"
+          content="https://osvaldo-portfolio.vercel.app"
+        />
+        <meta
+          property="og:image"
+          content="https://osvaldo-portfolio.vercel.app/dev.jpg"
         />
         <title>Osvaldo Valentin</title>
       </Head>
