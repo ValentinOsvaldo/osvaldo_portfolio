@@ -8,7 +8,6 @@ export const Form = () => {
     subject,
     isLoading,
     error,
-    isSuccess,
     onChange,
     onSubmit,
   } = useForm({
@@ -62,12 +61,6 @@ export const Form = () => {
       {!!error && (
         <div className="bg-red-500 text-white transition-all w-full p-2 rounded-md font-medium[">
           { JSON.stringify(error) }
-        </div>
-      )}
-
-      {isSuccess && (
-        <div className="bg-teal-500 text-black transition-all w-full p-2 rounded-md font-medium[">
-          Submit successfully!
         </div>
       )}
 

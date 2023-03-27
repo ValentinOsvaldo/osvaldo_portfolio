@@ -1,10 +1,16 @@
-import { Form, Input } from '@/components/ui';
 import Head from 'next/head';
+import { Toaster } from 'react-hot-toast';
+import { Form } from '@/components/ui';
 
 const contact = () => {
   return (
     <>
       <Head>
+        <meta property="og:title" content="Osvaldo Valentin - Contact" />
+        <meta
+          property="og:url"
+          content="https://osvaldo-portfolio.vercel.app/contact"
+        />
         <title>Contact</title>
       </Head>
 
@@ -34,6 +40,7 @@ const contact = () => {
         </article>
 
         <Form />
+        <Toaster />
       </section>
     </>
   );

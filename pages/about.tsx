@@ -6,6 +6,11 @@ const about = () => {
   return (
     <>
       <Head>
+        <meta property="og:title" content="Osvaldo Valentin - About Me" />
+        <meta
+          property="og:url"
+          content="https://osvaldo-portfolio.vercel.app/about"
+        />
         <title>About me</title>
       </Head>
 

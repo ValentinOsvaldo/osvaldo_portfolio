@@ -53,12 +53,12 @@ export const ProjectCard: React.FC<Props> = ({
               ? image
               : 'https://fastly.picsum.photos/id/235/300/200.jpg?hmac=OgmBtL2QjDkQL7wZKMebAZnkfCuZs7GtBi9ngOokiWU'
           }
-          alt="random"
+          alt={ title }
           height={300}
           width={400}
           className="w-full h-full object-cover"
           placeholder="blur"
-          blurDataURL="./react.svg"
+          blurDataURL="./dev.jpg"
         />
       </div>
     </article>
