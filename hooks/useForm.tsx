@@ -1,10 +1,10 @@
 import { useState } from 'react';
+import toast from 'react-hot-toast'
 
 export const useForm = <T extends Object>(initialState: T) => {
   const [form, setForm] = useState(initialState);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<unknown>();
-  const [isSuccess, setIsSuccess] = useState<boolean | undefined>();
 
   const onSubmit = async () => {
     try {
@@ -26,12 +26,9 @@ export const useForm = <T extends Object>(initialState: T) => {
         throw new Error('Fail to send message');
       }
 
-      setIsSuccess(true);
       setForm(initialState);
 
-      setTimeout(() => {
-        setIsSuccess(false);
-      }, 3000);
+      toast.success('Submit successfully!');
     } catch (error) {
       console.error(error);
       if (error instanceof Error) {
@@ -54,7 +51,6 @@ export const useForm = <T extends Object>(initialState: T) => {
     form,
     isLoading,
     error,
-    isSuccess,
     onSubmit,
     onChange,
   };

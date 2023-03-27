@@ -1,5 +1,6 @@
-import { Form, Input } from '@/components/ui';
 import Head from 'next/head';
+import { Toaster } from 'react-hot-toast';
+import { Form } from '@/components/ui';
 
 const contact = () => {
   return (
@@ -39,6 +40,7 @@ const contact = () => {
         </article>
 
         <Form />
+        <Toaster />
       </section>
     </>
   );

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta
+      <meta
           name="description"
           content="FrontEnd Developer studying computer science degree and 1+ year
             experience in software development. Certifications in responsive
@@ -41,7 +41,7 @@ export default function Document() {
             best practices across all software projects. Regularly creating
             projects independently to improve skills and testing new
             technologies."
-        ></meta>
+        />
       </Head>
       <body>
         <Main />
