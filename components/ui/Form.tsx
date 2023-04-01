@@ -24,11 +24,11 @@ export const Form = () => {
 
   return (
     <form
-      className="flex flex-col gap-4 md:items-end bg-slate-900 p-4 rounded-md shadow-sm"
+      className="flex flex-col gap-4 md:items-end dark:bg-slate-900 p-4 rounded-md shadow-md"
       onSubmit={onSubmitForm}
     >
-      <h3 className="text-2xl text-teal-500 font-bold w-full block">
-        Leave a message
+      <h3 className="text-2xl dark:text-teal-500 font-bold w-full block">
+        Leave a message 👇
       </h3>
 
       <Input
@@ -66,7 +66,7 @@ export const Form = () => {
 
       <button
         type="submit"
-        className="px-4 py-2 bg-teal-700 text-white font-medium rounded-md inline-flex justify-center items-center text-center gap-2"
+        className="card-button"
         disabled={isLoading}
       >
         {isLoading && (

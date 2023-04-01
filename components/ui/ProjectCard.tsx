@@ -1,11 +1,13 @@
 import Image from 'next/image';
+import { AiOutlineLink } from 'react-icons/ai';
+import { BsGithub } from 'react-icons/bs';
 
 interface Props {
   title: string;
   technologies: string[];
   demo?: string;
   code?: string;
-  image?: string;
+  image: string;
   description?: string;
 }
 
@@ -18,48 +20,44 @@ export const ProjectCard: React.FC<Props> = ({
   image,
 }) => {
   return (
-    <article className="flex flex-col relative md:flex-row md:items-center overflow-hidden rounded-xl md:rounded-none my-4 md:odd:flex-row-reverse group md:justify-between">
-      <div className="z-10 p-4 bg-black/80 md:bg-transparent flex flex-col md:group-odd:items-end md:group-odd:text-right flex-shrink flex-grow">
-        <h3 className="text-3xl font-bold text-teal-500">{title}</h3>
-        <span className="text-gray-200 font-medium block mb-2">
-          {technologies.join(', ')}
-        </span>
-        <p className="text-sm text-gray-300 mb-4">{description}</p>
-        <div className="flex flex-row gap-4">
+    <article className="bg-white dark:bg-slate-800 flex flex-col relative p-4 shadow-lg dark:shadow-none rounded-lg overflow-hidden my-4 justify-between gap-4 md:flex-row md:items-center md:odd:flex-row-reverse group md:justify-between">
+      <Image src={image} alt={title} width={500} height={400} className='shadow-md' />
+      <div className="flex flex-col flex-nowrap justify-between">
+        <h3 className="font-semibold text-2xl dark:text-teal-400">{title}</h3>
+
+        <p className="mb-2">
+          <span className="font-semibold text-gray-800 dark:text-gray-200">
+            Tech Stack:{' '}
+          </span>
+          <span className="font-medium text-gray-700 dark:text-gray-300">
+            {technologies.join(', ')}
+          </span>
+        </p>
+
+        <p className="dark:text-gray-300">{description}</p>
+
+        <div className="flex flex-row gap-4 mt-2">
           {demo && (
             <a
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-teal-700 px-4 py-2 rounded-lg font-medium transition-all duration-500 hover:brightness-75"
+              className="card-button"
             >
-              Demo
+              <span>Demo</span>
+              <AiOutlineLink />
             </a>
           )}
           <a
             href={code}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-transparent px-4 py-2 rounded-lg border-teal-500 border-2 text-teal-500 transition-all duration-500 hover:bg-teal-200/25 font-medium"
+            className="card-button"
           >
-            Code
+            <span>Code</span>
+            <BsGithub />
           </a>
         </div>
-      </div>
-      <div className="absolute z-0 w-full h-full md:relative md:max-w-[400px] md:flex-grow flex-shrink-0">
-        <Image
-          src={
-            image
-              ? image
-              : 'https://fastly.picsum.photos/id/235/300/200.jpg?hmac=OgmBtL2QjDkQL7wZKMebAZnkfCuZs7GtBi9ngOokiWU'
-          }
-          alt={ title }
-          height={300}
-          width={400}
-          className="w-full h-full object-cover"
-          placeholder="blur"
-          blurDataURL="./dev.jpg"
-        />
       </div>
     </article>
   );
