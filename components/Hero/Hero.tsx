@@ -20,7 +20,7 @@ export const Hero = () => {
         <span className="absolute ml-2 inline-block border-l-8 border-gray-800 dark:border-teal-400 w-1 h-12 animate-cursor"></span>
       </h2>
       <h3 className="font-medium text-lg text-gray-700 dark:text-gray-300 mb-4">
-        Hi my name is Osvaldo Valentin and I'm a Front End developer from Monterrey, MX.
+        Hi my name is Osvaldo Valentin and {'I\'m'} a Front End developer from Monterrey, MX.
       </h3>
 
       <div className="flex flex-row flex-wrap items-center justify-center md:justify-start gap-3">
