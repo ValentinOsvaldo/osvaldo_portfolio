@@ -21,7 +21,7 @@ export const Input: React.FC<Props> = ({
   onChange,
 }) => {
   return (
-    <div className="relative bg-slate-700 rounded-md overflow-hidden flex flex-row items-center w-full">
+    <div className="relative bg-slate-300 dark:bg-slate-700 rounded-md overflow-hidden flex flex-row items-center w-full">
       <input
         type={type}
         id={id}
@@ -29,7 +29,7 @@ export const Input: React.FC<Props> = ({
         onChange={onChange}
         value={value}
         placeholder=" "
-        className="block px-4 pt-6 pb-2 w-full text-md text-white bg-inherit appearance-none focus:outline-none focus:ring-0 peer invalid:border-b-1"
+        className="block px-4 pt-6 pb-2 w-full text-md text-black dark:text-white bg-inherit appearance-none focus:outline-none focus:ring-0 peer invalid:border-b-1"
         required={required}
       />
       <label
@@ -37,7 +37,7 @@ export const Input: React.FC<Props> = ({
         className="
             absolute 
             text-md
-          text-zinc-400
+          dark:text-zinc-400
             duration-150 
             transform 
             -translate-y-3 
