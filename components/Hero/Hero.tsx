@@ -19,12 +19,19 @@ export const Hero = () => {
         Front-End React Developer
         <span className="absolute ml-2 inline-block border-l-8 border-gray-800 dark:border-teal-400 w-1 h-12 animate-cursor"></span>
       </h2>
-      <h3 className="font-medium text-lg text-gray-700 dark:text-gray-300 mb-4">
-        Hi my name is Osvaldo Valentin and {'I\'m'} a Front End developer from Monterrey, MX.
-      </h3>
+      <article className='mb-2'>
+        <p className="font-medium text-lg text-gray-700 dark:text-gray-300">
+          Hi my name is Osvaldo Valentin and {"I'm"} a Front End developer from
+          Monterrey, MX.
+        </p>
+        <p className="font-medium text-base text-gray-600 dark:text-gray-400">
+          I have +1 year of experience developing professional applications with
+          React and React Native, working with a team and leading a project.
+        </p>
+      </article>
 
       <div className="flex flex-row flex-wrap items-center justify-center md:justify-start gap-3">
-        <div className='flex flex-col items-center text-gray-700 dark:text-gray-300 md:flex-row md:gap-4'>
+        <div className="flex flex-col items-center text-gray-700 dark:text-gray-300 md:flex-row md:gap-4">
           <span className="font-semibold">Tech Stack</span>
           <span className="h-px w-full md:h-8 md:w-px inline-block bg-gray-600 dark:bg-gray-300"></span>
         </div>
