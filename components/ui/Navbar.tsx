@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import { BsLightbulbFill, BsLightbulbOff } from 'react-icons/bs';
 
 const links = [
-  { url: '/about', text: 'About me' },
   { url: '/projects', text: 'Projects' },
   { url: '/contact', text: 'Contact' },
 ];
