@@ -19,14 +19,13 @@ export const Hero = () => {
         Front-End React Developer
         <span className="absolute ml-2 inline-block border-l-8 border-gray-800 dark:border-teal-400 w-1 h-12 animate-cursor"></span>
       </h2>
-      <article className='mb-2'>
+      <article className="mb-2">
         <p className="font-medium text-lg text-gray-700 dark:text-gray-300">
-          Hi my name is Osvaldo Valentin and {"I'm"} a Front End developer from
-          Monterrey, MX.
+          Osvaldo Valentin Front End Developer from Monterrey, MX 🇲🇽.
         </p>
         <p className="font-medium text-base text-gray-600 dark:text-gray-400">
-          I have +1 year of experience developing professional applications with
-          React and React Native, working with a team and leading a project.
+          +1 year of experience developing professional applications with React
+          and React Native, working with a team and leading a project.
         </p>
       </article>
 
@@ -43,7 +42,7 @@ export const Hero = () => {
               alt={icon.name}
               height={35}
               width={35}
-              className="transition-all hover:grayscale-0 hover:rotate-12 hover:scale-125 cursor-pointer"
+              className="transition-all hover:grayscale-0 hover:rotate-12 hover:scale-125"
             />
           ))}
         </div>
