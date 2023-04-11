@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const icons = [
   { path: './html.svg', name: 'html' },
@@ -14,15 +15,15 @@ const icons = [
 
 export const Hero = () => {
   return (
-    <section className="min-h-[calc(100vh-110px)] sm:h-[calc(100vh_-_75px)] flex justify-center p-6 flex-col gap-2 max-w-screen-sm text-center md:text-left">
-      <h2 className="font-bold text-5xl dark:text-teal-400 relative">
-        Front-End React Developer
-        <span className="absolute ml-2 inline-block border-l-8 border-gray-800 dark:border-teal-400 w-1 h-12 animate-cursor"></span>
+    <section className="flex justify-center p-6 flex-col gap-2 max-w-screen-sm text-center md:text-left">
+      <h2 className="font-bold text-6xl text-teal-600 dark:text-teal-400 relative">
+        Osvaldo Valentin
+        <span className="absolute ml-2 inline-block border-l-8 border-teal-600 dark:border-teal-400 w-1 h-14 animate-cursor"></span>
       </h2>
       <article className="mb-2">
-        <p className="font-medium text-lg text-gray-700 dark:text-gray-300">
-          Osvaldo Valentin Front End Developer from Monterrey, MX 🇲🇽.
-        </p>
+        <span className="font-bold text-4xl text-gray-700 dark:text-gray-300">
+          Front-End Developer
+        </span>
         <p className="font-medium text-base text-gray-600 dark:text-gray-400">
           +1 year of experience developing professional applications with React
           and React Native, working with a team and leading a project.
