@@ -20,8 +20,16 @@ export const ProjectCard: React.FC<Props> = ({
   image,
 }) => {
   return (
-    <article className="bg-white dark:bg-slate-800 flex flex-col relative p-4 shadow-lg dark:shadow-none rounded-lg overflow-hidden my-4 justify-between gap-4 lg:flex-row lg:items-center lg:odd:flex-row-reverse group lg:justify-between">
-      <Image src={image} alt={title} width={500} height={400} className='shadow-lg w-full lg:max-w-[500px]' />
+    <article className="bg-white dark:bg-slate-800 flex flex-col relative p-4 shadow-lg dark:shadow-none rounded-lg overflow-hidden justify-between gap-4 lg:items-center group lg:justify-between">
+      <Image
+        src={image}
+        alt={title}
+        width={500}
+        height={400}
+        placeholder='blur'
+        blurDataURL='/placeholder.png'
+        className="shadow-lg w-full lg:max-w-[500px]"
+      />
       <div className="flex flex-col flex-nowrap justify-between">
         <h3 className="font-semibold text-2xl dark:text-teal-400">{title}</h3>
 
